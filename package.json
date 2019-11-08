@@ -1,10 +1,9 @@
 {
   "name": "sqdesign",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "deply": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,14 @@
   "homepage": "https://sbusse.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbusse/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbusse/portfolio/issues"
+  },
+  "description": ""
 }
