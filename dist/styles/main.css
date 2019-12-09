@@ -1,0 +1,125 @@
+#intro {
+  background: url("../img/home_banner_greyBG2.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  #intro {
+    background-position: center;
+    background-size: 1050px;
+    background-color: #c3bfbe;
+  }
+
+}
+
+
+#introTwo {
+  background-size: cover;
+}
+
+
+
+#myName {
+  letter-spacing: 5px;
+  font-family: Babas Neue, Arial;
+  color: #0e2d46; 
+  }
+
+#webDev {
+  letter-spacing: 5px;
+  font-family: Babas Neue, Arial;
+  color: #ffffff; 
+}
+
+#location {
+  letter-spacing: 1px;
+  font-family: Verdana, Arial;
+  font-size: 30px;
+  color: #0e2d46; 
+}
+
+
+
+.top-nav-collapse {
+  background-color: #ffffff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  color: red;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #cecccc !important;
+  }
+}
+
+.navbar.navbar-dark .navbar-toggler {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+.font-bold {
+  font-weight: 300;
+  color: #c3bfbf;
+  
+}
+
+.button {
+  background-color: #4fb030; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#pricing .lead {
+  opacity: 0.7;
+}
+
+#pricing .card-image {
+  background: url("../img/architecture.jpg") no-repeat center center;
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
+
+.slide-text{
+  color: #ffcc33;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
